@@ -32,6 +32,30 @@ layout: default
                         <amp-social-share width="55" height="35" type="email"></amp-social-share>
                         <amp-social-share width="55" height="35" type="system"></amp-social-share>
                     </div>
+                    <div class="related">
+                        <h3>مواضيع ذات صلة</h3>
+                        {% assign firstCategory = page.categories | first %}
+                        {% assign relatedCount = 0 %}
+                        <div class="row">
+                        {% for related in site.categories[firstCategory] %}
+                            {% unless page.permalink == related.permalink %}
+                                {% assign relatedCount = relatedCount | plus: 1 %}
+                                <div class="col-12 col-6-md">
+                                    <a href="{{related.permalink}}">
+                                        <div>
+                                            <amp-img alt="{{ page.title }}" src="{{ related.image }}" width="1200" height="675" layout="responsive"></amp-img>
+                                            <h4>{{ related.title }}</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            {% endunless %}
+
+                            {% if relatedCount == 2 %}
+                                {% break %}
+                            {% endif %}
+                        {% endfor %}
+                        </div>
+                    </div>
                 </div>
             </article>
         </div>
