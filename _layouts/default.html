@@ -1,0 +1,283 @@
+<!doctype html>
+<html amp dir="rtl" lang="ar">
+<head>
+    <meta charset="utf-8"/>
+	<link rel="dns-prefetch" href="//cdn.ampproject.org"/>
+	<link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+	<link rel="dns-prefetch" href="//pagead2.googlesyndication.com"/>
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-ad-0.1.js">
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-analytics-0.1.js">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	{% seo %}
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}"/>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
+    {% if page.amp_elements %}
+    {% for element in page.amp_elements %}<script async custom-element="{{element}}" src="https://cdn.ampproject.org/v0/{{element}}-0.1.js"></script>{% endfor %}
+    {% endif %}
+    <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+    <style amp-custom>
+        {% include chota.min.css %}
+        
+        /* arabic */
+        @font-face {
+          font-family: 'Almarai';
+          font-style: normal;
+          font-weight: 400;
+          font-display: swap;
+          src: local('Almarai'), local('Almarai-Regular'), url(https://fonts.gstatic.com/s/almarai/v2/tsstApxBaigK_hnnQ1iFo0C3.woff2) format('woff2');
+          unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+        }
+        
+        :root {
+            --color-primary: #fd5e53;
+            --color-lightGrey: #f7faf9;
+            --color-grey: #c9cccb;
+            --color-darkGrey: #444644;
+            --color-error: #ff392b;
+            --color-success: #21bf73;
+            --grid-maxWidth: 107rem;
+            --grid-gutter: 2rem;
+            --font-size: 1.5rem;
+            --font-family: "Almarai", sans-serif;
+        }
+        .m0 {
+            margin: 0;
+        }
+
+        .mx0 {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .my0 {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .m1 {
+            margin: 0.5rem;
+        }
+
+        .mx1 {
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+        }
+
+        .my1 {
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .m2 {
+            margin: 1rem;
+        }
+
+        .mx2 {
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+
+        .my2 {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .p0 {
+            padding: 0;
+        }
+
+        .px0 {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .py0 {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .p1 {
+            padding: 0.5rem;
+        }
+
+        .px1 {
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+        }
+
+        .py1 {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .p2 {
+            padding: 1rem;
+        }
+
+        .px2 {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .py2 {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+        .h1,h1 {
+            font-size: 3rem;
+        }
+        .h2,h2 {
+            font-size: 2.75rem;
+        }
+        .h3,h3 {
+            font-size: 2.5rem;
+        }
+        .h4,h4 {
+            font-size: 2.25rem;
+        }
+        .h5,h5 {
+            font-size: 2rem;
+        }
+        .h6,h6 {
+            font-size: 1.75rem;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        .bg-white{
+            background-color: #ffffff;
+        }
+        .post{
+            padding: 2rem;
+        }
+
+        p{
+            font-size: 1em;
+            color: var(--color-darkGrey);
+        }
+        blockquote {
+            border-left: 3px solid var(--color-primary);
+        }
+        .main-nav {
+            -moz-box-shadow: 0 0 2px 0 var(--color-grey);
+            -webkit-box-shadow: 0 0 2px 0 var(--color-grey);
+            box-shadow: 0 0 2px 0 var(--color-grey);
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+        .page-content{
+            word-break: break-word;
+            padding: 1rem 0;
+        }
+        .media-card{
+            margin-bottom: 2rem;
+        }
+        .media-img{
+            -moz-box-shadow: 0 0 2px 0 var(--color-grey);
+            -webkit-box-shadow: 0 0 2px 0 var(--color-grey);
+            box-shadow: 0 0 2px 0 var(--color-grey);
+        }
+        .page-footer{
+            padding: 2rem;
+        }
+        .blka{
+            margin-bottom: 1rem;
+        }
+        .sticky{
+            position: sticky;
+            top: 0;
+            padding-top: 1rem;
+        }
+        .img-fit img{
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+<amp-auto-ads type="adsense" data-ad-client="ca-pub-9321573368454622"></amp-auto-ads>
+<nav class="nav main-nav">
+    <div class="container">
+        <div class="nav-left">
+            <a class="brand is-center" href="{{ site.baseurl }}/">
+                <amp-img alt="{{ post.title }}"
+                    src="data:image/png;base64,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"
+                    width="50"
+                    height="50"
+                    layout="fixed">
+                </amp-img>
+                {{ site.title }}
+            </a>
+
+            <div class="tabs">
+                {% for my_page in site.pages %}
+					{% if my_page.title and my_page.show_in_menu %}
+						<a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+					{% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <div class="nav-right">
+            <div class="tabs">
+                {% for category in site.categories %}
+                <a href="{{ site.url }}/{{ site.category_dir }}/{{ category | first | slugify }}/">{{ category | first }}</a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="page-content {% if page.layout == 'post' %}bg-light{% endif %}">
+    {{ content }}
+</div>
+
+<footer class="page-footer {% if page.layout == 'post' %}bg-white{% else %}bg-light{% endif %}">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <p>جميع حقوق النشر محفوظة - {{ site.title }} &copy;</p>
+                <ul>
+                    <li><a href="/privacy/">سياسة الخصوصية</a></li>
+                    <li><a href="/terms/">اتفاقية الاستخدام</a></li>
+                    <li><a href="/about/">من نحن</a></li>
+                    <li><a href="/contact/">اتصل بنا</a></li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <div class="grouped">
+                    <a class="button primary outline is-full-width" href="#top">الرجوع لاعلى</a>
+                    <a class="button primary outline is-full-width" href="{{ '/feed.xml' | relative_url }}">RSS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<amp-analytics type="googleanalytics">
+  <script type="application/json">
+  {
+    "vars": {
+      "account": "UA-46636022-40"
+    },
+    "triggers": {
+      "trackPageview": {
+        "on": "visible",
+        "request": "pageview"
+      }
+    }
+  }
+  </script>
+</amp-analytics>
+
+
+</body>
+</html>
