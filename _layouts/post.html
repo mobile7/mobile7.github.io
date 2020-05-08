@@ -33,28 +33,42 @@ layout: default
                         <amp-social-share width="55" height="35" type="system"></amp-social-share>
                     </div>
                     <div class="related">
-                        <h3>مواضيع ذات صلة</h3>
-                        {% assign firstCategory = page.categories | first %}
-                        {% assign relatedCount = 0 %}
-                        <div class="row">
-                        {% for related in site.categories[firstCategory] %}
-                            {% unless page.permalink == related.permalink %}
-                                {% assign relatedCount = relatedCount | plus: 1 %}
-                                <div class="col-12 col-6-md">
-                                    <a href="{{related.permalink}}">
-                                        <div>
-                                            <amp-img alt="{{ page.title }}" src="{{ related.image }}" width="1200" height="675" layout="responsive"></amp-img>
-                                            <h4>{{ related.title }}</h4>
-                                        </div>
-                                    </a>
-                                </div>
-                            {% endunless %}
+                       
+                       {% assign prevflag = 1 %}
+{% assign nextflag = 1 %}
 
-                            {% if relatedCount == 2 %}
-                                {% break %}
-                            {% endif %}
-                        {% endfor %}
-                        </div>
+{% for c in site.category %}
+  {% if c.title == page.title %}
+    {% assign currentItemIndex = forloop.index0 %}
+    {% if forloop.index == 1 %}
+      {% assign prevflag = 0 %}
+      {% assign nextflag = 1 %}
+    {% elsif forloop.index == forloop.length %}
+      {% assign prevflag = 1 %}
+      {% assign nextflag = 0 %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% if prevflag == 1 %}
+  {% assign prevItemIndex = currentItemIndex | minus: 1 %}
+  {% assign prevPost = site.category[prevItemIndex] %}
+  {% if prevPost.url %}
+    <a class="prev" rel="prev" href="{{ prevPost.url }}">
+        <span>&lt; {{ prevPost.title }}</span>
+    </a>
+    {% endif %}
+{% endif %}
+
+{% if nextflag == 1 %}
+  {% assign nextItemIndex = currentItemIndex | plus: 1 %}
+  {% assign nextPost = site.category[nextItemIndex] %}
+  {% if nextPost.url %}
+    <a class="next" rel="next" href="{{ nextPost.url }}">
+        <span>{{ nextPost.title }} &gt;</span>
+    </a>
+    {% endif %}
+{% endif %}
                     </div>
                 </div>
             </article>
