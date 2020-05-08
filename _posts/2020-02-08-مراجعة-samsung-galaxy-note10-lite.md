@@ -2,7 +2,8 @@
 layout: post
 title:  "مراجعة Samsung Galaxy Note10 Lite"
 date:   2020-02-07 13:51:13
-categories: [هواتف]
+categories: 
+    - "هواتف"
 image: /assets/posts/مراجعة-samsung-galaxy-note10-lite/thumbnail.webp
 amp_elements: [amp-youtube]
 type: video
