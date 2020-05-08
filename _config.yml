@@ -60,8 +60,18 @@ permalink: /post/:title:output_ext
 paginate: 8
 paginate_path: "page:num"
 
-paginate_category_basepath: '/category/:name/'
-paginate_category_layout: '_layouts/category.html'
+
+collections:
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "_layouts/category.html"
 
 webmaster_verifications:
   google: Rk5PXbcRlNiGxVnzzMWVb1_6oFjz2Cd6Obl7aZE_VxY
