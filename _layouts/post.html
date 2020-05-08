@@ -34,10 +34,9 @@ layout: default
                     </div>
                     <div class="related">
                         <h3>مواضيع ذات صلة</h3>
-                        {% assign firstCategory = page.categories | first %}
                         {% assign relatedCount = 0 %}
                         <div class="row">
-                        {% for related in site.categories[firstCategory] %}
+                        {% for related in site.categories[page.tag] %}
                             {% unless page.permalink == related.permalink %}
                                 {% assign relatedCount = relatedCount | plus: 1 %}
                                 <div class="col-12 col-6-md">
