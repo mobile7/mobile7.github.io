@@ -25,4 +25,3 @@ type: video
 لمراجعة المواصفات بشكل مفصل ,وشراء الهاتف من الموقع الرسمي :
 
 [https://www.samsung.com/sa/smartphones/galaxy-note10-lite-n770/SM-N770FZKGKSA/](https://www.samsung.com/sa/smartphones/galaxy-note10-lite-n770/SM-N770FZKGKSA/){:target="_blank"}
-
