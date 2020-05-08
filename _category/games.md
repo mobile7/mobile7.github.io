@@ -1,4 +1,4 @@
 ---
 tag: العاب
-permalink: "/category/العاب"
+permalink: "/category/العاب/"
 ---

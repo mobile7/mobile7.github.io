@@ -227,7 +227,7 @@
         <div class="nav-right">
             <div class="tabs">
                 {% for category in site.categories %}
-                <a href="{{ site.url }}/{{ site.category_dir }}/{{ category | first | slugify }}/">{{ category | first }}</a>
+                <a href="{{ site.url }}/category/{{ category | first | slugify }}/">{{ category | first }}</a>
                 {% endfor %}
             </div>
         </div>
