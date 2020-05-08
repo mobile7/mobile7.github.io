@@ -1,4 +1,4 @@
 ---
-tag: games
+tag: العاب
 permalink: "/category/العاب"
 ---
