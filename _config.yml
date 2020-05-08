@@ -71,7 +71,7 @@ defaults:
       path: ""
       type: category
     values:
-      layout: "_layouts/category.html"
+      layout: "category"
 
 webmaster_verifications:
   google: Rk5PXbcRlNiGxVnzzMWVb1_6oFjz2Cd6Obl7aZE_VxY
