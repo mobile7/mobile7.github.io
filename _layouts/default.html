@@ -1,31 +1,16 @@
 <!doctype html>
-<html amp dir="rtl" lang="ar">
+<html dir="rtl" lang="ar">
 <head>
     <meta charset="utf-8"/>
-	<link rel="dns-prefetch" href="//cdn.ampproject.org"/>
 	<link rel="dns-prefetch" href="//fonts.gstatic.com"/>
 	<link rel="dns-prefetch" href="//pagead2.googlesyndication.com"/>
-    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
-    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-ad-0.1.js">
-    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-analytics-0.1.js">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <script data-ad-client="ca-pub-6214544148643564" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <meta name="google-site-verification" content="z8UA1kzFjadu7z901ZQ1ZNYtCVCvng6YMqw7DzXEqIE" />
 	{% seo %}
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}"/>
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
-    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
-    {% if page.amp_elements %}
-    {% for element in page.amp_elements %}<script async custom-element="{{element}}" src="https://cdn.ampproject.org/v0/{{element}}-0.1.js"></script>{% endfor %}
-    {% endif %}
-    <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
-    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-
-    <style amp-custom>
+    <style>
         {% include chota.min.css %}
         
         /* arabic */
@@ -38,18 +23,23 @@
           unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
         }
         
+        
         :root {
-            --color-primary: #fd5e53;
-            --color-lightGrey: #f7faf9;
-            --color-grey: #c9cccb;
-            --color-darkGrey: #444644;
-            --color-error: #ff392b;
-            --color-success: #21bf73;
-            --grid-maxWidth: 107rem;
-            --grid-gutter: 2rem;
-            --font-size: 1.7rem;
-            --font-family: "Almarai", sans-serif;
-        }
+  --bg-color: #ffffff;
+  --bg-secondary-color: #f3f3f6;
+  --color-primary: #14854F;
+  --color-lightGrey: #d2d6dd;
+  --color-grey: #747681;
+  --color-darkGrey: #3f4144;
+  --color-error: #d43939;
+  --color-success: #28bd14;
+  --grid-maxWidth: 107rem;
+  --grid-gutter: 2rem;
+  --font-size: 1.7rem;
+  --font-color: #333333;
+  --font-family-sans: "Almarai", sans-serif;
+  --font-family-mono: "Almarai", monaco, "Consolas", "Lucida Console", monospace;
+}
         .m0 {
             margin: 0;
         }
@@ -204,18 +194,14 @@
     </style>
 </head>
 <body>
-
-<amp-auto-ads type="adsense" data-ad-client="ca-pub-6214544148643564"></amp-auto-ads>
 <nav class="nav main-nav">
     <div class="container">
         <div class="nav-left">
             <a class="brand is-center" href="{{ site.baseurl }}/">
-                <amp-img alt="{{ post.title }}"
+                <img alt="{{ post.title }}"
                     src="data:image/png;base64,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"
                     width="50"
-                    height="50"
-                    layout="fixed">
-                </amp-img>
+                    height="50"/>
                 {{ site.title }}
             </a>
 
@@ -264,22 +250,13 @@
     </div>
 </footer>
 
-
-<amp-analytics type="googleanalytics">
-  <script type="application/json">
-  {
-    "vars": {
-      "account": "UA-46636022-40"
-    },
-    "triggers": {
-      "trackPageview": {
-        "on": "visible",
-        "request": "pageview"
-      }
-    }
-  }
-  </script>
-</amp-analytics>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-46636022-40"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-46636022-40');
+</script>
 
 
 </body>
