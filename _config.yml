@@ -79,14 +79,3 @@ webmaster_verifications:
   #alexa: 1234
   #yandex: 1234
   #baidu: 1234
-
-lazy_load_image:
-  src_attr_name: data-src # [required] You need to specify the attributes to be saved for lazy loading
-  preload_image: data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22228%22%20height%3D%22407%22%3E%3C%2Fsvg%3E # [optional] you can add a data uri or loading image as fallback src
-  class_attr_values: # [optional] if you want to add custom class value, please add values
-    - lazyload
-  ignore_selectors: # [optional] if you want to ignore applying lazy load image, please add selector (css or xpath)
-    - ".ignore-lazy-image-load"
-    - "/*[@class='ignore-lazy-image-load']"
-  additional_attrs: # [optional] if you want to add attributes, please add key value
-    "data-size": auto 
