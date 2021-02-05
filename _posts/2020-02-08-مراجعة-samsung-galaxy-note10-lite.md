@@ -5,13 +5,12 @@ date:   2020-02-07 13:51:13
 categories: 
     - "هواتف"
 image: /assets/posts/مراجعة-samsung-galaxy-note10-lite/thumbnail.webp
-amp_elements: [amp-youtube]
 type: video
 ---
 
 في هذا الفيديو تقوم قناة تقنية بلا حدود بمراجعة هاتف جلاكسي نوت 10 لايت مع استعراض سعر الهاتف في السعودية وايضا استعرض الفيديو اهم مواصفات جلاكسي نوت 10 لايت بالتفصيل.
 
-<amp-youtube credentials="omit" data-videoid="s3_DFgsUeKA" layout="responsive" width="16" height="9"></amp-youtube>
+<iframe class="is-full-width" width="480" height="270" src="https://www.youtube.com/embed/s3_DFgsUeKA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 تم تصميم جهاز Galaxy Note 10 Lite لتقديم هاتف بشاشة كبيرة و بسعر مناسب في نفس الوقت بالنسبة للمواصفات الرائعة من حيث شاشة Infinity-O السينمائية اللامتناهية و القدرة على فعل الكثير مع قلم S Pen مثل الكتابة والرسم بالاضافة الى بطارية تدوم طويلاً.
 

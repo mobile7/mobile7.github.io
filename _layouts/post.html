@@ -17,7 +17,7 @@ layout: default
                             {% if page.author %} • <span>{{ page.author }}</span>{% endif %}
                         </p>
                         {% if page.type != 'video' %}
-                        <amp-img alt="{{ page.title }}" src="{{ page.image }}" width="1200" height="675" layout="responsive"></amp-img>
+                        <img alt="{{ page.title }}" src="{{ page.image }}" class="is-full-width"/>
                         {% endif %}
                     </header>
 
@@ -26,11 +26,7 @@ layout: default
                     {% include matched-content.html %}
                     -->
                     <div class="my2">
-                        <amp-social-share width="55" height="35" type="facebook"></amp-social-share>
-                        <amp-social-share width="55" height="35" type="twitter"></amp-social-share>
-                        <amp-social-share width="55" height="35" type="whatsapp"></amp-social-share>
-                        <amp-social-share width="55" height="35" type="email"></amp-social-share>
-                        <amp-social-share width="55" height="35" type="system"></amp-social-share>
+                        share
                     </div>
                    
                 </div>
