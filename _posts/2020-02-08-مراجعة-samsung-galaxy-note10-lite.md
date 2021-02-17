@@ -10,7 +10,7 @@ type: video
 
 في هذا الفيديو تقوم قناة تقنية بلا حدود بمراجعة هاتف جلاكسي نوت 10 لايت مع استعراض سعر الهاتف في السعودية وايضا استعرض الفيديو اهم مواصفات جلاكسي نوت 10 لايت بالتفصيل.
 
-<iframe class="is-full-width" height="270" width="480" src="https://www.youtube.com/embed/s3_DFgsUeKA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="lozad is-full-width" height="270" width="480" data-src="https://www.youtube.com/embed/s3_DFgsUeKA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 تم تصميم جهاز Galaxy Note 10 Lite لتقديم هاتف بشاشة كبيرة و بسعر مناسب في نفس الوقت بالنسبة للمواصفات الرائعة من حيث شاشة Infinity-O السينمائية اللامتناهية و القدرة على فعل الكثير مع قلم S Pen مثل الكتابة والرسم بالاضافة الى بطارية تدوم طويلاً.
 
