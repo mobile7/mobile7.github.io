@@ -257,13 +257,16 @@ html, body {width: auto!important; overflow-x: hidden!important}
     observer.observe();
 </script>
 
+{% if page.layout == 'post' %}
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+{% endif %}
+
 <!-- ReklamStore code start - Desktop Sticky -->
 <script type="text/javascript">
 var reklamstore_region_id=1099005;
 var reklamstore_dfp=0;
 </script>
 <script type="text/javascript" src="//adserver.reklamstore.com/reklamstore.js"></script>
-
 <!-- ReklamStore code end - Desktop Sticky -->
 
 <!-- ReklamStore code start - Mobile Sticky -->
@@ -274,10 +277,14 @@ var reklamstore_dfp=0;
 <script type="text/javascript" src="//adserver.reklamstore.com/reklamstore.js"></script>
 <!-- ReklamStore code end - Mobile Sticky -->
 
+<!-- ReklamStore code start - InRead -->
+<script type="text/javascript">
+var reklamstore_region_id=1099008;
+var reklamstore_location="auto";
+</script>
+<script type="text/javascript" src="//adserver.reklamstore.com/reklamstore.js"></script>
+<!-- ReklamStore code end - InRead -->
 
-{% if page.layout == 'post' %}
-    <script async src="https://static.addtoany.com/menu/page.js"></script>
-{% endif %}
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46636022-40"></script>
 <script>
