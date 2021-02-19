@@ -1,1 +1,9 @@
+rekmob.com,  47821,DIRECT
+reklamstore.com, 1047821, DIRECT
+appnexus.com, 1619, DIRECT
+adform.com, 1431, RESELLER
+pubmatic.com, 156547, RESELLER
+improvedigital.com, 1216, RESELLER
+rubiconproject.com, 17270, RESELLER, 0bfd66d529a55807
 google.com, pub-9959730754038026, RESELLER
+appnexus.com, 10726, DIRECT
