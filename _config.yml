@@ -63,6 +63,9 @@ paginate_path: "page:num"
 
 
 collections:
+  virals:
+    output: true
+    permalink: /viral/:path/
   category:
     output: true
 
