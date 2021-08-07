@@ -3,6 +3,7 @@ layout: page
 title: Privacy Policy For Mobile7
 permalink: /privacy/
 lang_dir: ltr
+description: This Privacy Policy document contains types of information that is collected and recorded by mobile7.github.io and how we use it.
 ---
 
 At mobile7.github.io, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by mobile7.github.io and how we use it.

@@ -3,6 +3,7 @@ layout: page
 title: Terms of Service
 permalink: /terms/
 lang_dir: ltr
+description: By using and accessing mobile7 you agree to these Terms of Service Agreement.
 ---
 
 
