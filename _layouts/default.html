@@ -13,13 +13,16 @@
         
         /* arabic */
         @font-face {
-          font-family: 'Almarai';
-          font-style: normal;
-          font-weight: 400;
-          font-display: swap;
-          src: local('Almarai'), local('Almarai-Regular'), url(https://fonts.gstatic.com/s/almarai/v2/tsstApxBaigK_hnnQ1iFo0C3.woff2) format('woff2');
-          unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+            font-family: Vazir;
+            font-display: swap;
+            src: url('https://cdnjs.cloudflare.com/ajax/libs/vazir-font/30.0.0/Vazir-Regular.eot');
+            src: url('https://cdnjs.cloudflare.com/ajax/libs/vazir-font/30.0.0/Vazir-Regular.eot?#iefix') format('embedded-opentype'),
+                 url('https://cdnjs.cloudflare.com/ajax/libs/vazir-font/30.0.0/Vazir-Regular.woff2') format('woff2'),
+                 url('https://cdnjs.cloudflare.com/ajax/libs/vazir-font/30.0.0/Vazir-Regular.woff') format('woff'),
+                 url('https://cdnjs.cloudflare.com/ajax/libs/vazir-font/30.0.0/Vazir-Regular.ttf') format('truetype');
+            font-weight: normal;
         }
+
         
         
         :root {
@@ -35,8 +38,8 @@
             --grid-gutter: 2rem;
             --font-size: 1.7rem;
             --font-color: #333333;
-            --font-family-sans: "Almarai", sans-serif;
-            --font-family-mono: "Almarai", monaco, "Consolas", "Lucida Console", monospace;
+            --font-family-sans: "Vazir", sans-serif;
+            --font-family-mono: "Vazir", monaco, "Consolas", "Lucida Console", monospace;
         }
         html, body {width: auto!important; overflow-x: hidden!important} 
 
@@ -262,6 +265,8 @@
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46636022-40"></script>
 <script>
+    var a2a_config = a2a_config || {};
+a2a_config.locale = "ar";
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());

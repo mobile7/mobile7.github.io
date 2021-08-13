@@ -5,19 +5,19 @@
 layout: home
 ---
 
-<div class="row">
+<div class="row is-center">
     <div class="col-12 col-8-md">
         {% if site.posts.size > 0 %}
             {% for post in paginator.posts %}
                 <div class="media-card">
                     <div class="row">
-                        <div class="col-12 col-5-md">
+                        <div class="col-12 col-4-md">
                             <a href="{{ post.url }}">
                                   <noscript><img src="{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}" /></noscript>
                                 <img alt="{{ post.title }}" data-src="{{ post.image | replace: '.webp', '-small.webp' }}" class="is-full-width media-img lozad">
                             </a>
                         </div>
-                        <div class="col-12 col-7-md">
+                        <div class="col-12 col-8-md">
                             <h2 class="h6 bold"><a href="{{ post.url }}">{{ post.title }}</a></h2>
                             <p class="text-dark">{{ post.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>
                         </div>
