@@ -34,8 +34,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll/tagging
   - jekyll-tagging-related_posts
+  - jekyll-compose
 
 # Exclude from processing.
 # The following items will not be processed, by default.
