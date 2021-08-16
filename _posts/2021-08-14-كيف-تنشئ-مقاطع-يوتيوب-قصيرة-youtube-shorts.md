@@ -29,7 +29,7 @@ image: /assets/posts/كيف-تنشئ-مقاطع-يوتيوب-قصيرة-youtube-
 
 ![كيف تشاهد مقاطع يوتيوب القصيرة YouTube Shorts](/assets/posts/{{slug}}/كيف-تشاهد-youtube-shorts.webp)
 
-## كيف تنسئ مقطاع Shorts
+## كيف تنشئ مقاطع Shorts
 
 للبدء في صنع مقاطع يوتيوب shorts لقناتك قم بفتح تطبيق YouTube وانقر  على  زر إنشاء في القائمة أسفل التطبيق.
 
