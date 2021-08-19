@@ -93,7 +93,6 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
-  jekyll-tagging
   jekyll-tagging-related_posts
   minima (>= 2.5.1)
   tzinfo (~> 1.2)
@@ -101,4 +100,4 @@ DEPENDENCIES
   wdm (~> 0.1.1)
 
 BUNDLED WITH
-   2.2.25
+   2.2.26
