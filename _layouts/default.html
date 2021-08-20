@@ -203,7 +203,7 @@
         .share-fb{
             background-color: #3b5998!important;
         }
-        .nav .brand, .nav a { 
+        #logo { 
             padding: 0;
         }
         .text-black{
@@ -215,7 +215,7 @@
 <nav class="nav main-nav">
     <div class="container">
         <div class="nav-left">
-            <a class="brand text-primary is-center" href="{{ site.baseurl }}/">
+            <a id="logo" class="brand text-primary is-center" href="{{ site.baseurl }}/">
                 {% if page.layout == 'home' %}<h1 class="m0">{{ site.title }}</h1>{% else %}<span class="h1">{{ site.title }}</span>{% endif %}
             </a>
 
