@@ -17,8 +17,8 @@ layout: home
                             </a>
                         </div>
                         <div class="col-12 col-8-md">
-                            <h2 class="h6 bold"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                            <p class="text-dark">{{ post.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>
+                            <h2 class="h6 bold"><a class="text-dark" href="{{ post.url }}">{{ post.title }}</a></h2>
+                            <p class="text-grey">{{ post.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>
                         </div>
                     </div>
                 </div>
