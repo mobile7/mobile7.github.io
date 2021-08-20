@@ -1,4 +1,5 @@
+---
+layout: none
+---
 User-agent: *
-Disallow:
-
-Sitemap: https://www.mobile7.org/sitemap.xml
+Sitemap: {{ site.url }}/sitemap.xml
