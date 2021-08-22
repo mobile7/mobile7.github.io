@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: الموبايل السابع
+title: التقني الغلبان
 email: abdulbasetbasher@yandex.com
 description: >- # this means to ignore newlines until "baseurl:"
   مدونة متخصصة في العاب ويرامج ومراجعات الموبايل
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.mobile7.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.poortechguy.com" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/logo.png
 author: abdokb
 
