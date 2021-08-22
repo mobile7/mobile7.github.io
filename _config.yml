@@ -36,6 +36,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-tagging-related_posts
   - jekyll-compose
+  - jekyll-toc
 
 # Exclude from processing.
 # The following items will not be processed, by default.

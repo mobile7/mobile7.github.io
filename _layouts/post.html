@@ -23,8 +23,7 @@ layout: default
                         <img width="1200" height="675" alt="{{ page.title }}" src="{{ page.image }}" class="media-img is-full-width"/>
                         {% endif %}
                     </header>
-
-                    {{ content }}
+                    {{ content | toc }}
                     
                     {% include matched-content.html %}
                     
