@@ -23,7 +23,18 @@ layout: default
                         <img width="1200" height="675" alt="{{ page.title }}" src="{{ page.image }}" class="media-img is-full-width"/>
                         {% endif %}
                     </header>
-                    {{ content | toc }}
+                    {% if page.toc%}
+                    <div class="py1">
+                        <details>
+                        <summary class="text-primary">جدول المحتويات</summary>
+                        <p>
+                            {% toc %}
+                        </p>
+                    </details>
+                    </div>
+                    {% endif %}
+
+                    {{ content  }}
                     
                     {% include matched-content.html %}
                     
