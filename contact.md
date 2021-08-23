@@ -3,7 +3,7 @@ layout: page
 title: Contact Us
 permalink: /contact/
 lang_dir: ltr
-description: Contact us at mobile7 and we will response as soon as possible.
+description: Contact us at PoorTechGuy and we will response as soon as possible.
 ---
 
 <form method="post" action-xhr="/send" target="_top">

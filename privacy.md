@@ -1,24 +1,24 @@
 ---
 layout: page
-title: Privacy Policy For Mobile7
+title: Privacy Policy For PoorTechGuy
 permalink: /privacy/
 lang_dir: ltr
-description: This Privacy Policy document contains types of information that is collected and recorded by mobile7.github.io and how we use it.
+description: This Privacy Policy document contains types of information that is collected and recorded by poortechguy.com and how we use it.
 ---
 
-At mobile7.github.io, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by mobile7.github.io and how we use it.
+At poortechguy.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by poortechguy.com and how we use it.
 
-If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us at info@mobile7.github.io
+If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us at info@poortechguy.com
 
-By accessing the website at mobile7.github.io, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.
+By accessing the website at poortechguy.com, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.
 
 ## Log Files
 
-mobile7.github.io follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services’ analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users’ movement on the website, and gathering demographic information.
+poortechguy.com follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services’ analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users’ movement on the website, and gathering demographic information.
 
 ## Cookies and Web Beacons
 
-Like any other website, mobile7.github.io uses ‘cookies’. These cookies are used to store information including visitors’ preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users’ experience by customizing our web page content based on visitors’ browser type and/or other information.
+Like any other website, poortechguy.com uses ‘cookies’. These cookies are used to store information including visitors’ preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users’ experience by customizing our web page content based on visitors’ browser type and/or other information.
 
 ## DoubleClick DART Cookie
 
@@ -34,19 +34,19 @@ Each of our advertising partners has their own Privacy Policy for their website.
 
 ## Privacy Policies
 
-You may consult this list to find the Privacy Policy for each of the advertising partners of mobile7.github.io.
+You may consult this list to find the Privacy Policy for each of the advertising partners of poortechguy.com.
 
-Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on mobile7.github.io, which are sent directly to users’ browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
+Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on poortechguy.com, which are sent directly to users’ browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
 
 Personalized ads Google can continue to show personalized ads as well as non-personalized ads to the users in the EEA. Personalized ads reach users based on their interests, demographics, and other criteria.
 
 [EU user consent policy](https://www.google.com/about/company/user-consent-policy.html)
 
-Note that mobile7.github.io has no access to or control over these cookies that are used by third-party advertisers.
+Note that poortechguy.com has no access to or control over these cookies that are used by third-party advertisers.
 
 ## Third Part Privacy Policies
 
-mobile7.github.io’s Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. You may find a complete list of these Privacy Policies and their links here and finding: Privacy Policy Links.
+poortechguy.com’s Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. You may find a complete list of these Privacy Policies and their links here and finding: Privacy Policy Links.
 
 And for EU user consent policy Google has it’s own page for that since we are using google ads you can see what they are mentioned here: [EU user consent policy](https://www.google.com/about/company/user-consent-policy.html)
 
@@ -58,11 +58,11 @@ Another part of our priority is adding protection for children while using the i
 
 
  
-mobile7.github.io does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
+poortechguy.com does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
 
 ## Online Privacy Policy Only
 
-This privacy policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in mobile7.github.io. This policy is not applicable to any information collected offline or via channels other than this website.
+This privacy policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in poortechguy.com. This policy is not applicable to any information collected offline or via channels other than this website.
 
 ## Consent
 
