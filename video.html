@@ -9,13 +9,13 @@ lang_dir: ltr
   <div class="row">
     <div class="col-12 col-8-md">
 
-      <iframe class="lozad is-full-width" width="480" height="270"
-        :data-src="'https://mobile7.org/ezoic/video/embed_humix.go?contentId=' + videoId"
+      <iframe ref="videoIframe" class="is-full-width" width="480" height="270"
+        src="'https://mobile7.org/ezoic/video/embed_humix.go?contentId=' + videoId"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
 
-      <h1 class="h4">{{ videoData.name }}</h1>
-      <div style="white-space: pre-wrap">{{ videoData.description }}</div>
+      <h1 class="h4">{{ videoData?.name }}</h1>
+      <div style="white-space: pre-wrap">{{ videoData?.description }}</div>
     </div>
     <div class="col-12 col-4-md"></div>
   </div>
@@ -28,7 +28,11 @@ lang_dir: ltr
 
   createApp({
     mounted() {
-    this.initFetch()
+      
+      this.$refs.videoIframe.addEventListener("load", function(ev) {
+          console.log(ev.currentTarget.contentWindow.document)
+          this.initFetch()
+      });
   },
     data() {
       return {
@@ -38,6 +42,7 @@ lang_dir: ltr
     },
     methods: {
       initFetch() {
+        console.log("fetch data")
         fetch(`https://mobile7.org/ezoic/video/embed_humix.go?contentId=${this.videoId}`)
           .then(response => response.text())
           .then(async (response) => {
