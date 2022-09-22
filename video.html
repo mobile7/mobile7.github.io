@@ -28,10 +28,11 @@ lang_dir: ltr
 
   createApp({
     mounted() {
-      
+      var refThis = this
       this.$refs.videoIframe.addEventListener("load", function(event) {
           var target = event.target || event.srcElement;
-          this.initFetch(target.innerHTML)
+          console.log(target.innerHTML)
+          refThis.getData(target.innerHTML)
       });
   },
     data() {
@@ -41,18 +42,18 @@ lang_dir: ltr
       }
     },
     methods: {
-      async initFetch(html_text) {
+      getData(html_text) {
         console.log("fetch data")
         const owner_url = `https://${html_text.match(/(?<=DomainNameOwner":").*?(?=")/g)[0]}/humix/video/${this.videoId}`;
 
-            const data = await fetch(owner_url)
-              .then(response => response.text())
-              .then((response) => {
-                return response
-              })
-              .catch(_ => false)
-
-            this.videoData = JSON.parse(data.match(/(?<=application\/ld\+json">)([\s\S]*?)(?=<\/script>)/)[0])
+            //const data = await fetch(owner_url)
+            //  .then(response => response.text())
+            //  .then((response) => {
+            //    return response
+            //  })
+            //  .catch(_ => false)
+//
+            //this.videoData = JSON.parse(data.match(/(?<=application\/ld\+json">)([\s\S]*?)(?=<\/script>)/)[0])
       }
     },
   }).mount('#app')
